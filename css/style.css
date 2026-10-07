@@ -294,3 +294,27 @@ nav > a:hover {
         width: 100%;
     }
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 5%;
+}
+
+footer section {
+    flex: 1;
+}
+
+footer h2 {
+    margin-top: 0;
+    color: var(--color-primary);
+    font-size: 1.25rem;
+}
+
+footer p {
+    margin: 0.25rem 0;
+    color: var(--color-light-text);
+}
