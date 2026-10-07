@@ -250,6 +250,12 @@ nav > a:hover {
     margin: 0 auto;
 }
 
+#reservation .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
 #reservation label {
     font-weight: bold;
 }
@@ -361,4 +367,11 @@ footer p {
     height: 2px;
     margin-top: 0.5rem;
     background-color: var(--color-accent);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 3px;
 }
