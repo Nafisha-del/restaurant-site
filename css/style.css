@@ -202,3 +202,23 @@ nav > a:hover {
     margin-bottom: 0;
     color: var(--color-light-text);
 }
+
+@media (max-width: 900px) {
+    #menu > section {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    #menu > section {
+        grid-template-columns: 1fr;
+    }
+
+    #menu {
+        padding: 4rem 1rem;
+    }
+
+    #menu article {
+        padding: 1.25rem;
+    }
+}
