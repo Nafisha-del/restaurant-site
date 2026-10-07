@@ -339,3 +339,26 @@ footer p {
         font-size: 0.95rem;
     }
 }
+
+#menu article {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#menu article:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(45, 36, 31, 0.12);
+}
+
+#menu article h4 {
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+#menu article h4::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    margin-top: 0.5rem;
+    background-color: var(--color-accent);
+}
