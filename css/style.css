@@ -279,3 +279,18 @@ nav > a:hover {
 #reservation button:hover {
     background-color: var(--color-secondary);
 }
+
+@media (max-width: 600px) {
+    #reservation {
+        padding: 4rem 1rem;
+    }
+
+    #reservation form {
+        grid-template-columns: 1fr;
+    }
+
+    #reservation button {
+        grid-column: auto;
+        width: 100%;
+    }
+}
