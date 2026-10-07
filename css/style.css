@@ -84,3 +84,41 @@ nav ul a:hover,
 nav > a:hover {
     color: var(--color-accent);
 }
+
+#home {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 5%;
+    text-align: center;
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+}
+
+#home h1 {
+    margin: 0;
+    font-size: clamp(3rem, 8vw, 6rem);
+    line-height: 1.1;
+}
+
+#home p {
+    max-width: 600px;
+    margin: 1.5rem 0 2rem;
+    font-size: clamp(1.1rem, 2vw, 1.4rem);
+}
+
+#home a {
+    display: inline-block;
+    padding: 0.85rem 1.5rem;
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 0.25rem;
+}
+
+#home a:hover {
+    background-color: var(--color-primary);
+}
