@@ -222,3 +222,60 @@ nav > a:hover {
         padding: 1.25rem;
     }
 }
+
+#reservation {
+    padding: 5rem 5%;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+#reservation h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: clamp(2rem, 5vw, 3rem);
+}
+
+#reservation > p {
+    max-width: 600px;
+    margin: 0 auto 2.5rem;
+    text-align: center;
+}
+
+#reservation form {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem 1.5rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#reservation label {
+    font-weight: bold;
+}
+
+#reservation input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--color-border);
+    border-radius: 0.25rem;
+    background-color: var(--color-white);
+    color: var(--color-text);
+}
+
+#reservation button {
+    grid-column: 1 / -1;
+    justify-self: center;
+    margin-top: 1rem;
+    padding: 0.85rem 1.75rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#reservation button:hover {
+    background-color: var(--color-secondary);
+}
